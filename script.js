@@ -73,7 +73,7 @@ ScrollTrigger.defaults({
 const sections = document.querySelectorAll('.section')
 
 gltfLoader.load(
-    '/models/letter-c/glTF/Letter_C.gltf',
+    'static/models/letter-c/glTF/Letter_C.gltf',
     (gltf) => {
        
         gltf.scene.children[1].castShadow = true
@@ -120,7 +120,7 @@ gltfLoader.load(
 )
 
 gltfLoader.load(
-    '/models/letter-l/glTF/Letter_L.gltf',
+    'static/models/letter-l/glTF/Letter_L.gltf',
     (gltf) => {
 
         gltf.scene.children[1].castShadow = true
@@ -167,7 +167,7 @@ gltfLoader.load(
     }
 )
 gltfLoader.load(
-    '/models/letter-a/glTF/Letter_A.gltf',
+    'static/models/letter-a/glTF/Letter_A.gltf',
     (gltf) => {
 
         gltf.scene.children[1].castShadow = true
@@ -214,7 +214,7 @@ gltfLoader.load(
     }
 )
 gltfLoader.load(
-    '/models/letter-r/glTF/Letter_R.gltf',
+    'static/models/letter-r/glTF/Letter_R.gltf',
     (gltf) => {
 
         gltf.scene.castShadow = true
@@ -265,7 +265,7 @@ gltfLoader.load(
     }
 )
 gltfLoader.load(
-    '/models/letter-i/glTF/Letter_I.gltf',
+    'static/models/letter-i/glTF/Letter_I.gltf',
     (gltf) => {
 
         gltf.scene.castShadow = true
@@ -314,7 +314,7 @@ gltfLoader.load(
     }
 )
 gltfLoader.load(
-    '/models/letter-t/glTF/Letter_T.gltf',
+    'static/models/letter-t/glTF/Letter_T.gltf',
     (gltf) => {
 
         gltf.scene.castShadow = true
@@ -360,7 +360,7 @@ gltfLoader.load(
     }
 )
 gltfLoader.load(
-    '/models/letter-y/glTF/Letter_Ygltf.gltf',
+    'static/models/letter-y/glTF/Letter_Ygltf.gltf',
     (gltf) => {
         gltf.scene.castShadow = true
         gltf.scene.receiveShadow = true
