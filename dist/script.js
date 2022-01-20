@@ -73,7 +73,7 @@ ScrollTrigger.defaults({
 const sections = document.querySelectorAll('.section')
 
 gltfLoader.load(
-    '/models/letter-c/glTF/Letter_C.gltf',
+    'static/models/letter-c/glTF/Letter_C.gltf',
     (gltf) => {
        
         gltf.scene.children[1].castShadow = true
